@@ -4,22 +4,44 @@ body{
 }
 
 section{
-    max-height: 100vh;
-    min-height: 100vh;
+    height: 100vh;
+    padding: unset;
+    margin: unset;
 }
 
-.about div{
-    background-color: black;
-    height: 100vh;
+.about div .main{
+    
     display: flex;
     color: aliceblue;
     flex-direction: row;
-    justify-content: space-evenly;
+    min-height: 88vh;
+    max-height: 100vh;
+    font-size: 2rem;
     align-items: center;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 10px 56px 0 56px;
+    font-family: "Roboto Mono",monospace;
+    font-weight: 300;
+    margin: unset;
+}
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+}
+
+a{
+    margin-bottom: 50px;
 }
 
 img{
     border-radius: 100%;
-    height: 30vh;
+    height: 45vh;
+    margin-left: 8vw;
+}
+
+p{
+    width: 40vw;
 }
