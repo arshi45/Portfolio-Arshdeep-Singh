@@ -14,15 +14,13 @@ section{
     display: flex;
     color: aliceblue;
     flex-direction: row;
-    min-height: 88vh;
-    max-height: 100vh;
     font-size: 2rem;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px 56px 0 56px;
     font-family: "Roboto Mono",monospace;
     font-weight: 300;
-    margin: unset;
+    margin-top: 20vh;
 }
 
 .outer{
@@ -30,11 +28,13 @@ section{
     flex-direction: column;
     background-color: black;
     color: aliceblue;
+    height: 100vh;
     justify-content: center;
 }
 
 a{
     margin-bottom: 50px;
+    margin-top: 20vh;
 }
 
 img{
