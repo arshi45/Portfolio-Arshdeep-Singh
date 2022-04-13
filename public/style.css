@@ -10,17 +10,16 @@ section{
 }
 
 .about div .main{
-    
     display: flex;
     color: aliceblue;
     flex-direction: row;
     font-size: 2rem;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px 56px 0 56px;
+    padding: 0 56px 0 56px;
     font-family: "Roboto Mono",monospace;
     font-weight: 300;
-    margin-top: 20vh;
+   
 }
 
 .outer{
@@ -30,14 +29,15 @@ section{
     color: aliceblue;
     height: 100vh;
     justify-content: center;
+    padding-top: 18vh;
 }
 
 a{
-    margin-bottom: 50px;
-    margin-top: 20vh;
+    margin-bottom: 40px;
+    margin-top: 14vh;
 }
 
-img{
+#profile{
     border-radius: 100%;
     height: 42vh;
     margin-left: 8vw;
@@ -48,8 +48,39 @@ p{
 }
 
 .block{
-    display: grid;
-    flex-direction: row;
     margin: unset;
-    width: 10vw;
+}
+
+.swiper {
+    width: 80vw;
+    height: 100vh;
+  }
+
+.swiper-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Roboto Mono",monospace;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 10vh;
+}
+
+.swiper-slide img{
+    width: 30vw;
+    border-radius: 50px;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    height: 60vh;
+    
+}
+
+h1{
+  font-family: 'Gloria Hallelujah',sans-serif; 
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.swiper-slide p{
+    padding-right:2vw;
 }
