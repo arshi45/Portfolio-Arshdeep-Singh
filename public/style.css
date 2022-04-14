@@ -105,5 +105,9 @@ h1{
     justify-content: space-evenly;
 }
 
+.links{
+    margin: unset;
+}
+
 
 
