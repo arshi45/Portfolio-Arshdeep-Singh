@@ -99,3 +99,11 @@ h1{
     font-family: "Gustera",sans-serif;
 }
 
+.contact .outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
