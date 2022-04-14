@@ -16,7 +16,7 @@ section{
     font-size: 2rem;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 56px 0 56px;
+    padding: 80px 56px 0 56px;
     font-family: "Roboto Mono",monospace;
     font-weight: 300;
    
@@ -29,18 +29,18 @@ section{
     color: aliceblue;
     height: 100vh;
     justify-content: center;
-    padding-top: 18vh;
 }
 
 a{
     margin-bottom: 40px;
-    margin-top: 14vh;
 }
 
 #profile{
     border-radius: 100%;
     height: 42vh;
     margin-left: 8vw;
+    position: relative;
+    top: -20vh;
 }
 
 p{
@@ -103,10 +103,31 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .links{
     margin: unset;
+}
+
+.links img{
+    margin: 30px;
+}
+
+.fontArt{
+    position: relative;
+    z-index: 1;
+    left: -8vw;
+    top: -4vh;
+}
+
+.imgFont{
+    margin: unset;
+}
+
+.links a{
+    margin: unset;
+    padding: unset;
 }
 
 
