@@ -1,12 +1,24 @@
 body{
-    padding: unset;
-    margin: unset;
+    padding: 0;
+    margin: 0;
 }
 
 section{
     height: 100vh;
-    padding: unset;
-    margin: unset;
+    padding: 0px;
+    margin: 0px;
+    scroll-snap-align: start;
+    transition: 1s;
+}
+
+.container{
+    height: 100vh;
+    min-width: 100vw;
+    scroll-snap-type: y proximity;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    overflow-y: scroll;
 }
 
 .about div .main{
@@ -88,8 +100,10 @@ h1{
 .secondary{
     position: relative;
     left:100px;
-    top: -70px;
+    top: -80px;
+    margin: 0;
     font-size: 6rem;
+    font-weight: 100;
     font-family: 'MOMCAKE',sans-serif;
     color: #9B9F9B;
 }
@@ -97,6 +111,8 @@ h1{
 .main{
     font-size: 6rem;
     font-family: "Gustera",sans-serif;
+    font-weight: 100;
+    margin: 0;
 }
 
 .contact .outer{
