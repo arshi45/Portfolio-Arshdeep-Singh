@@ -123,6 +123,12 @@ h1{
     align-items: center;
 }
 
+.skills .outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .links{
     margin: unset;
 }
@@ -146,6 +152,63 @@ h1{
     margin: unset;
     padding: unset;
 }
+
+#one{
+    animation:1s ease-in 1s alternate infinite;
+    animation-name: test;
+}
+
+@keyframes test {
+    from{
+       opacity: 1;
+    }
+    to{
+        stroke-width: 1;
+    }
+}
+
+#two{
+    animation:1s ease-in 1s alternate infinite;
+    animation-name: test-2;
+}
+
+@keyframes test-2 {
+    from{
+        opacity: 1;
+    }
+    to{
+        stroke-width: 5;
+    }
+}
+
+#three{
+    animation: 1s ease-in 1s alternate infinite;
+    animation-name: test-3;
+}
+
+@keyframes test-3 {
+    from{
+        opacity: 1;
+    }
+    to{
+        stroke-width: 5;
+    }
+}
+
+#four{
+    animation: 1s ease-in 1s alternate infinite;
+    animation-name: test-4;
+}
+
+@keyframes test-4 {
+    from{
+        opacity: 1;
+    }
+    to{
+        stroke-width: 5;
+    }
+}
+
 
 
 
