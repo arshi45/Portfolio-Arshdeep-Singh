@@ -101,7 +101,7 @@ h1{
 .secondary{
     position: relative;
     left:100px;
-    top: -80px;
+    top: -40px;
     margin: 0;
     font-size: 6rem;
     font-weight: 100;
@@ -129,19 +129,27 @@ h1{
     justify-content: center;
 }
 
+.projects .outer{
+    padding-top: 6vh;
+}
+
 .links{
     margin: unset;
+}
+
+.skills .main{
+    margin-bottom: 30vh;
 }
 
 .links img{
     margin: 30px;
 }
 
- .imgFont .fontArt{
+.imgFont .fontArt{
     position: relative;
     z-index: 1;
     left: -8vw;
-    top: -4vh;
+    top: -8vh;
 }
 
 .imgFont{
@@ -154,7 +162,7 @@ h1{
 }
 
 #one{
-    animation:1s ease-in 1s alternate infinite;
+    animation:1s ease-in 4s alternate infinite;
     animation-name: test;
 }
 
@@ -168,7 +176,7 @@ h1{
 }
 
 #two{
-    animation:1s ease-in 1s alternate infinite;
+    animation:1s ease-in 3s alternate infinite;
     animation-name: test-2;
 }
 
@@ -182,7 +190,7 @@ h1{
 }
 
 #three{
-    animation: 1s ease-in 1s alternate infinite;
+    animation: 1s ease-in 2s alternate infinite;
     animation-name: test-3;
 }
 
