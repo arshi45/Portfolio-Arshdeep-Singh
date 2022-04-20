@@ -22,7 +22,7 @@ section{
     overflow-y: scroll;
 }
 
-.about div .main{
+.about .main{
     display: flex;
     color: aliceblue;
     flex-direction: row;
@@ -139,6 +139,10 @@ h1{
 
 .skills .main{
     margin-bottom: 30vh;
+}
+
+.skills p{
+    font-family: 'Roboto',monospace;
 }
 
 .links img{
