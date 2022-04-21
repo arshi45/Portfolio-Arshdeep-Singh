@@ -123,10 +123,13 @@ h1{
     align-items: center;
 }
 
-.skills .outer{
+.skillCol{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
+    z-index: auto;
+    top: 50vh;
 }
 
 .projects .outer{
@@ -137,8 +140,72 @@ h1{
     margin: unset;
 }
 
-.skills .main{
-    margin-bottom: 30vh;
+
+.skills .outer img{
+    width: 8vw;
+}
+
+.skills .grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4vw;
+    padding: 10px;
+    position: relative;
+    z-index: auto;
+    top: -12vh;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+
+.item4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 12vw;
+}
+
+.item5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+
+.item6{
+    grid-row-start:4 ;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 6vw;
+}
+
+.item7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid{
+    opacity: 0;
+    transform: translateY(+10%);
+    transition: .6s ease-in;
+}
+
+#a:hover+.grid{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .skills p{
