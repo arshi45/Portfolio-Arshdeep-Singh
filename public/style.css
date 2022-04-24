@@ -101,6 +101,7 @@ h1{
 .secondary{
     position: relative;
     left:100px;
+    top: -40pxc;
     margin: 0;
     font-size: 6rem;
     font-weight: 100;
@@ -109,13 +110,11 @@ h1{
 }
 
 .main{
+    position: relative;
     font-size: 6rem;
     font-family: "Gustera",sans-serif;
     font-weight: 100;
-    position: relative;
     margin: 0;
-    padding: 0;
-    height: 4vh;
 }
 
 .contact .outer{
@@ -227,7 +226,6 @@ h1{
 
 .fontArt{
     margin: unset;
-    padding: unset;
 }
 
 .imgFont{
