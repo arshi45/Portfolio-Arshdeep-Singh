@@ -103,7 +103,6 @@ h1{
     left:100px;
     top: -8vh;
     margin: 0;
-    display: inline;
     font-size: 6rem;
     font-weight: 100;
     font-family: 'MOMCAKE',sans-serif;
@@ -113,7 +112,6 @@ h1{
 .main{
     position: relative;
     top: -2.4vh;
-    display: inline;
     font-size: 6rem;
     font-family: "Gustera",sans-serif;
     font-weight: 100;
@@ -225,6 +223,10 @@ h1{
     z-index: 1;
     left: -8vw;
     top: -8vh;
+}
+
+.fontArt{
+    margin: unset;
 }
 
 .imgFont{
