@@ -101,7 +101,6 @@ h1{
 .secondary{
     position: relative;
     left:100px;
-    top: -40px;
     margin: 0;
     font-size: 6rem;
     font-weight: 100;
@@ -114,7 +113,6 @@ h1{
     font-family: "Gustera",sans-serif;
     font-weight: 100;
     position: relative;
-    top: 0px;
     margin: 0;
     padding: 0;
 }
