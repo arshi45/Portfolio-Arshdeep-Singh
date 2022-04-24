@@ -101,7 +101,7 @@ h1{
 .secondary{
     position: relative;
     left:100px;
-    top: -40pxc;
+    top: -40px;
     margin: 0;
     font-size: 6rem;
     font-weight: 100;
@@ -290,6 +290,12 @@ h1{
     }
     to{
         stroke-width: 5;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .secondary{
+        top:-80px
     }
 }
 
