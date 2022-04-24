@@ -110,6 +110,8 @@ h1{
 }
 
 .main{
+    position: relative;
+    top: -2.4vh;
     font-size: 6rem;
     font-family: "Gustera",sans-serif;
     font-weight: 100;
