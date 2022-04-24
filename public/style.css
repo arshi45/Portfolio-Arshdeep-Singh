@@ -101,7 +101,7 @@ h1{
 .secondary{
     position: relative;
     left:100px;
-    top: -40px;
+    top: -8vh;
     margin: 0;
     font-size: 6rem;
     font-weight: 100;
